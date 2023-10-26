@@ -22,7 +22,7 @@ app.post('/boards', (req, res)=>{
 })
 
 //해보기
-app.get('/boards', (req, res) => {
+app.get('/tokens/phone', (req, res) => {
   //DB에서 데이터 꺼내옴.
   const myphone = 01011112222
   res.send(myphone)
